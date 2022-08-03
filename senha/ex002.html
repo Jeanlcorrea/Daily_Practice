@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./ex002.css">
+    <title>SENHA</title>
+</head>
+<body onload="carregar()">
+    <header>
+        <h1>SENHA</h1>
+    </header>
+
+    <section>
+        <div id="">
+            <p>Digite sua senha aqui:</p>
+            <input type="password" id="senhaum"
+                pattern="[^. ][A-Za-z0-9.]*[^. ][@][A-Za-z0-9.]*[^. ]" placeholder="Digite sua senha...">
+            <input type="password" id="senhadois" 
+                pattern="[^. ][A-Za-z0-9.]*[^. ][@][A-Za-z0-9.]*[^. ]" placeholder="Confirme sua senha...">
+        </div>
+        <div id="btn">
+            <input type="button" value="Verificar" onclick="verificar()">
+        </div>
+        <div id="res">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy;CursoemVídeo</p>
+    </footer>
+    <script src="./ex002.js"></script>
+</body>
+</html>
