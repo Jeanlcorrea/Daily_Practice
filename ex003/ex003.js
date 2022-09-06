@@ -11,6 +11,7 @@ function contar() {
         let i = Number(inicio.value);
         let f = Number(fim.value);
         let p = Number(passo.value);
+<<<<<<< HEAD
 
         if (p == 0) {
             alert('Passo inválido! Considerando PASSO 1')
@@ -34,4 +35,12 @@ function contar() {
     }
 }
 
+=======
+
+        for (let c = i; c <= f; c += p)
+        res.innerHTML += `${c}`
+    }
+    }
+
+>>>>>>> 8321fda5a246c19577cbf477596581d6a49f3e3a
 
